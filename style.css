@@ -1,0 +1,136 @@
+.Protfolio-container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+
+}
+.navlist li{
+    list-style: none;
+
+}
+.navlist{
+    display: flex;
+    gap: 3.5rem;
+   
+    position: fixed;
+    text-align: center;
+
+}
+.navlist li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.left-container{
+    background-color: black;
+    width: 70%;
+    padding-left: 3rem;
+
+
+}
+.right-container{
+    background:linear-gradient(#383838,#433a91); 
+    width: 30%;
+
+}
+.left-container,.right-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.icon .fa-brands{
+    color: aliceblue;
+    font-size: 1.7rem;
+
+
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    
+
+}
+.content{
+    margin-left: 4rem;
+}
+.content h2{
+    font-size: 1.5rem;
+    color: antiquewhite;
+}
+.content h1{
+    font-size: 4rem;
+    color: #5db9ee;
+}
+.nameajeet{
+    color: rgb(41, 9, 153)
+}
+
+.content-detail{
+    font-size: 1.1rem;
+    color: #fff;
+    max-width: 30rem;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.8rem;
+}
+.btn-container button{
+    border: .1rem solid blue;
+    font-size: 1.1rem;
+    padding:  .8rem  1.5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: .5s ease;
+
+}
+button:nth-child(1){
+    background: #5db9ee;
+    color: #262525;
+}
+button:nth-child(2){
+    background-color: transparent;
+    color: #5db9ee;
+    margin-left: 2rem;
+}
+button:nth-child(1):hover{
+    background-color: transparent;
+    color: #5db9ee;
+}
+button:nth-child(2):hover{
+    background-color:#5db9ee;
+    color: #262525;
+}
+.icon .fa-brands:hover{
+    cursor: pointer;
+   background: linear-gradient(#fff , #5db9ee);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+}
+.design .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50% ,-50%);
+
+
+
+}
+.circle:nth-child(1){
+    color: #262525;
+   
+    background: linear-gradient(90deg, transparent 50% ,  black 50%);
+    width: 38rem;
+}
+.circle:nth-child(2){
+    
+    width: 30rem;
+    background-image: url(Photo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 4rem #fff , inset 0 0 1rem #fff, 0 0 2rem #433a91;
+
+}
